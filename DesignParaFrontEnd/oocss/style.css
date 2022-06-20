@@ -1,0 +1,10 @@
+.theme-light {
+    color: #277678;
+    background-color: #f4f4f7;
+    border: 1px solid #8a2963;
+}
+
+.subscribe, .login {
+    margin: 1rem;
+    padding: 1rem;
+}
