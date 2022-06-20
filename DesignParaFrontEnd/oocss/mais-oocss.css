@@ -1,0 +1,12 @@
+/* skin */
+.theme-light {
+    color: brown;
+    background-color: aliceblue;
+    border: 1px solid navy;
+}
+
+/* structure */
+.subscribe, .login {
+    margin: 5rem;
+    padding: 1rem;
+}
