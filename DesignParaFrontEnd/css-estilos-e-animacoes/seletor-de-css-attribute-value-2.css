@@ -1,0 +1,19 @@
+.img-klematis {
+    height: 113px;
+    width: 150px;
+}
+
+.img-img_flwr {
+    height: 162px;
+    width: 224px;
+}
+
+.img-tree {
+    height: 358px;
+    width: 200px;
+}
+
+
+[title~=flower] {
+    border: 5px solid yellow;
+}
