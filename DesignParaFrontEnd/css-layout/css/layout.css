@@ -1,0 +1,18 @@
+span {
+    color: #fff;
+    display: inline-inline-table;
+    height: 200px;
+    width: 200px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
