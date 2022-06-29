@@ -1,0 +1,24 @@
+span {
+    color: aliceblue;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.blue {
+    background-color: blue;
+    float: left;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+    float: right;
+    margin: 10px;
+}
+
+.cyan {
+    background-color: rgb(21, 138, 138);
+    float: left;
+    margin: 10px;
+}
