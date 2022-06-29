@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/between-display.css">
+    <title>Diferrence between display</title>
+</head>
+<body>
+    <h3>Diferrence between display: none and visiblity</h3>
+    <p>
+        <strong>visibility: hideen</strong> hides the element, but it still takes
+        up space in the layout
+    </p>
+    <p>
+        <strong>display: none</strong> removes the element from the document. It
+        does not take up any space.
+    </p>
+
+    <div class="imgbox" id="imgbox1">Box 1 <br>
+        <img class="img-widht" src="./img/img_5terre.jpg" alt="Italy">
+        <button onclick="removeElement()">Remove</button>
+    </div>
+
+    <div class="imgbox" id="imgbox2">Box 2 <br>
+        <img class="img-widht" src="./img/img_lights.jpg" alt="Lights">
+        <button onclick="changeVisibility()">Hide</button>
+    </div>
+
+    <div class="imgbox">Box 3 <br>
+        <img class="img-widht" src="./img//img_forest.jpg" alt="Forest">
+        <button onclick="resetElement()">Reset All</button>
+    </div>
+
+
+    <script src="./js/between-display.js" charset="utf-8"></script>
+</body>
+</html>
