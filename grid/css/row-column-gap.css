@@ -1,0 +1,15 @@
+.grid-container {
+    background-color: papayawhip;
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    /* padding: 10px; */
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px dashed black;
+    /* margin: 10px; */
+    padding: 10px;
+    text-align: center;
+}
