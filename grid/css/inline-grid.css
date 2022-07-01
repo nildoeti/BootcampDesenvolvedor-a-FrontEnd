@@ -1,6 +1,6 @@
 .grid-container {
     background-color: beige;
-    display: grid;
+    display: iline-grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
@@ -11,4 +11,4 @@
     margin: 5px;
     padding: 10px;
     text-align: center;
-}
+}   
