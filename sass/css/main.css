@@ -4,4 +4,24 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 0;
   padding: 10px;
+}
+
+.container {
+  color: black;
+}
+.container p {
+  color: #585858;
+}
+
+.teste1 {
+  background-color: turquoise;
+  height: 200px;
+  width: 400px;
+}
+.teste1 .teste2 {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(255, 0, 0));
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
 }/*# sourceMappingURL=main.css.map */
