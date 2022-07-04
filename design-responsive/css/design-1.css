@@ -1,0 +1,51 @@
+
+.column-container {
+    display: flex;
+    flex-flow: nowrap;
+}
+
+.main-column {
+    background-color: brown;
+    color: aliceblue;
+    margin: 0 10px 50px 10px;
+    padding: 1px;
+    width: calc(32% - 20px);
+}
+
+.main-column p {
+    /* font-size: 25px; */
+}
+
+
+/* mudar tamanho da fonte */
+/* mudar quantidade de coluna */
+/* tablet max-width -: 720px */
+/* mobile : max-width 480px */
+
+
+/* tablet */
+@media (max-width: 720) {
+    .main-column {
+        font-size: 18px;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .main-column {
+        margin: 20px;
+        width: 100%;
+    }
+    .main-column p {
+        font-size: 18px;
+    }
+
+}   
+
+.column-container {
+    flex-flow: column wrap;
+}
+
+body {
+    background-color: black;
+}
